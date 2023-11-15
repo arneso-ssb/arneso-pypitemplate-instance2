@@ -1,0 +1,22 @@
+{
+  "_copy_without_render": [
+    "*.rst_t"
+  ],
+  "_jinja2_env_vars": {
+    "lstrip_blocks": true,
+    "trim_blocks": true
+  },
+  "_template": "https://github.com/statisticsnorway/ssb-pypitemplate.git",
+  "author": "Arne S\u00f8rli",
+  "code_quality_level": "Medium",
+  "copyright_owner": "Statistics Norway",
+  "copyright_year": "2023",
+  "development_status": "Development Status :: 4 - Beta",
+  "email": "arne.soerli@ssb.no",
+  "friendly_name": "Arneso Pypitemplate Instance2",
+  "github_organization": "arneso-ssb",
+  "license": "MIT",
+  "package_name": "arneso_pypitemplate_instance2",
+  "project_name": "arneso-pypitemplate-instance2",
+  "version": "0.0.0"
+}
