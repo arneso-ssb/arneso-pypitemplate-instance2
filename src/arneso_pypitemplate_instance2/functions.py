@@ -4,6 +4,7 @@ The template and this example uses Google style docstrings as described at:
 https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
 
 """
+
 from math import sqrt
 
 
@@ -51,3 +52,17 @@ def example_function(number1: int, number2: int) -> str:
         return f"{number1} is less than {number2}"
 
     return f"{number1} is greater than or equal to {number2}"
+
+
+def append_to_list(number: int, numbers: list[int] = []) -> list[int]:
+    """Add an integer value to a list of integers.
+
+    Args:
+        number: The number to add to the list.
+        numbers: List of integers to add the number to. Optional.
+
+    Returns:
+        A list of numbers.
+    """
+    numbers.append(number)
+    return numbers
